@@ -15,7 +15,6 @@ import Reveal from "../components/Reveal";
 import SectionHeading from "../components/SectionHeading";
 import TechMarquee from "../components/TechMarquee";
 import { useLanguage } from "../i18n/LanguageContext";
-import portrait from "../assets/portrait-placeholder.jpg";
 import BrandFooter from "../components/BrandFooter";
 
 const XIcon = ({ className }: { className?: string }) => (
@@ -138,7 +137,7 @@ const HomePage = () => {
                   <div className="absolute inset-0 shimmer pointer-events-none" />
                   <div className="relative aspect-square rounded-2xl overflow-hidden bg-secondary">
                     <img
-                      src={portrait}
+                      src="/portrait.png"
                       alt="Portrait of Saad Benchakroun"
                       width={420}
                       height={420}
@@ -146,7 +145,7 @@ const HomePage = () => {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
                     <div className="absolute bottom-3 left-3 right-3 flex items-center justify-between font-mono text-[10px] text-muted-foreground">
-                      <span className="px-2 py-1 rounded bg-background/70 backdrop-blur">~/portrait.jpg</span>
+                      <span className="px-2 py-1 rounded bg-background/70 backdrop-blur">~/portrait.png</span>
                       <span className="px-2 py-1 rounded bg-background/70 backdrop-blur flex items-center gap-1">
                         <MapPin className="w-3 h-3 text-primary" /> Morocco
                       </span>
