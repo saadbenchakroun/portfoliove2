@@ -56,7 +56,7 @@ const ContactPage = () => {
 
             <div className="space-y-4">
               {[
-                { label: t.contact.email, value: "admin@benchakroun.com", icon: Mail },
+                { label: t.contact.email, value: "contact@benchakroun.com", icon: Mail },
                 { label: t.contact.phone, value: "+212 651192751", icon: Phone },
               ].map((item) => (
                 <button
